@@ -1,53 +1,29 @@
-![Yelee](
-http://i13.tietuku.com/404b8c63eb155793.jpg)
+
 
 ### Introduction 前言
 
-Theme **Yelee** relies on [Hexo-Theme-Yilia][1], thanks for the author [Litten][2]. Fix some bugs, change lots of styles, add several features. And then I made the theme. Yelee is mainly designed for fluent text reading. I change styles and add functions, meanwhile, try hard to keep this theme simple, stupid and clear. Theme DEMO: [MOxFIVE's Blog][6]
+这个主题是基于Yilia -Yelee的，原作者做个不少功能和特性。今后我也会根据自己的喜好修改下风格，效果可参见：[Mazouri的博客](http://mazouri.me/)
 
-> M-Hexo-Blog [Commits][3]; hexo-theme-yelee [Commits][4]; [建站日志][5]
-
-本主题 **Yelee** 基于主题 [Hexo-Theme-Yilia][1] 修改而来，在此感谢原作者 [Litten][2]。修复了一些 bugs，改变了大量的样式，添加了不少特性。对原主题百般折腾后，发觉变动越来越大，索性就发布个新主题了，主题随我微博名叫 "Yelee" 。个人喜欢简洁的样式，重视内容的浏览，同时希望博客作为个人网站，能稍微凸显出博主个性。各种修改折腾大抵基于以上考虑。主题实际效果，请访问本人博客查看：[MOxFIVE's Blog][6]
-
-[1]: https://github.com/litten/hexo-theme-yilia
-[2]: http://litten.github.io/ "Litten的博客"
-[3]: https://github.com/MOxFIVE/M-Hexo-Blog/commits/master
-[4]: https://github.com/MOxFIVE/hexo-theme-yelee/commits/master
-[5]: http://moxfive.xyz/2015/08/20/blog-building/ "个人博客站点建设历程"
-[6]: http://moxfive.xyz
-
-![QR](http://i11.tietuku.com/f9ce6d6bb62921d4.png)
 
 ### Installation 安装主题
 
 ```
-git clone https://github.com/MOxFIVE/hexo-theme-yelee.git themes/yelee
+git clone https://github.com/mazouri/hexo-theme-mazouri.git themes/mazouri
 ```
 
 Change theme field in Hexo root's _config.yml file. 修改 Hexo 根目录对应配置文件。
 
 ```
-theme: yelee
+theme: mazouri
 ```
 
 ### Update 更新
+注意先备份theme下_config.yml文件
 
 ```
-cd themes/yelee
+cd themes/mazouri
 git pull
 ```
-
-### New Features 新特性
-| - |            Chs           |                En               |
-|:-:|:------------------------:|:-------------------------------:|
-| 1 | 嵌入边栏的文章目录       | Flexible table of contents      |
-| 2 | 透明化背景，随机背景大图 | Transparent & Random background |
-| 3 | 页内跳转按钮             | Scrolling button                |
-| 4 | 文章版权等信息显示       | Copyright info.                 |
-| 5 | 文章导航切换按钮         | Post navigation button          |
-| 6 | 网站计数                 | Site counter                    |
-
-![feature](http://i13.tietuku.com/2bfd34c63f627bae.jpg)
 
 
 ### Configuration 配置
@@ -84,7 +60,6 @@ date: 2015-12-03 00:00:00
 
 
 #### 1. About Page 关于我页面: 
-cd to your hexo folder and run this code:
 
 使用以下代码添加一个新页面：
 
@@ -106,9 +81,9 @@ hexo new page tags
 
 Find or change background images in folder | 修改背景图地址: 
 
-> `/yelee/source/background/`
+> `/mazouri/source/background/`
 
-Setting in `themes/yelee/_config.yml` 背景参数:
+Setting in `themes/mazouri/_config.yml` 背景参数:
 
 `
 background_image: 5
@@ -116,9 +91,9 @@ background_image: 5
 
 - Default value is 5, free to modify the number | 默认值为5，可按需修改
 
-- "5": show 5 images form bg-1.jpg to bg-5.jpg in `/yelee/source/background/`
+- "5": show 5 images form bg-1.jpg to bg-5.jpg in `/mazouri/source/background/`
 
-- "5": 设置`/yelee/source/background/`文件夹中 bg-1.jpg 到 bg-5.jpg 这5张图片为背景
+- "5": 设置`/mazouri/source/background/`文件夹中 bg-1.jpg 到 bg-5.jpg 这5张图片为背景
 
 - "0": remove background image and use white-gray theme | 取消网页背景图，使用淳朴的灰白主题 
 
@@ -129,7 +104,7 @@ In order to style posts/pages' image with HTML/CSS within `.md` files, you shoul
 
 Disable fancybox in full site | 在全站关闭 fancybox:
 
-> Set `fancybox: false` in `yelee/_config.yml`
+> Set `fancybox: false` in `mazouri/_config.yml`
 
 Disable fancybox in certain post/page | 在某篇文章中关闭 fancybox:
 
@@ -178,6 +153,14 @@ Install plugin: [hexo-generator-seo-friendly-sitemap](https://github.com/ludovic
 
 #### 11. Apple Touch icon 苹果图标:
 
-替换路径: `/yelee/source/apple-touch-icon.png`
+替换路径: `/mazouri/source/apple-touch-icon.png`
 
 [Recommended size: 180*180](https://realfavicongenerator.net/blog/apple-touch-icon-the-good-the-bad-the-ugly/)
+
+更多请转：
+1. https://github.com/litten/hexo-theme-yilia
+2. http://litten.github.io/ "Litten的博客"
+3. https://github.com/MOxFIVE/M-Hexo-Blog/commits/master
+4. https://github.com/MOxFIVE/hexo-theme-yelee/commits/master
+5. http://moxfive.xyz/2015/08/20/blog-building/ "个人博客站点建设历程"
+6. http://moxfive.xyz
